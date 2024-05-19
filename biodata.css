@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all .3s ease;
+}
+
+
+
+.hero{
+    width: 100%;
+    height: 130vh;
+    background-image: url('d:\huehue.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 180px;
+}
+
+.nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    margin: 0px 20px;
+}
+
+.nav ul li a:hover{
+    color: #1221c1c4;
+}
+
+.nav ul li .active{
+    color:black;
+}
+.nav ul li .inactive{
+    color:#1221c1c4;
+}
